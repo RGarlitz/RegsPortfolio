@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 1400px) {
+  
+  #navbar {
+    top: 0;
+      width: 100%;
+      position: fixed;
+    background-color: #bcbcb8;
+    height: 40px;
+  }
+  
+  #navbar li {
+    list-style-type: none;
+    padding: .55em;
+  }
+  
+  #welcome-section {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2def2;
+  }
+  
+  
+  
+  ul {
+     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  
+  #projects {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edc39e;
+  }
+  
+  #projects a {
+    padding: 2em;
+  }
+  
+  .mycolumn {
+    text-align: center;
+  }
+    
+    }

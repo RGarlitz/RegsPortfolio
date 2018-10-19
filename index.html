@@ -2,7 +2,13 @@
 <!DOCTYPE html/>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
         <link rel="stylesheet" href="index.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
         <title>Raegan's Portfolio</title>
     </head>
     <body>
@@ -25,18 +31,27 @@
     </section>
     <section id="projects">
       <div class="project-tile">
-        
         <a href="http://sandbox.raegangarlitz.com/">First Project</a>
-        
       </div>
-      
       <a id="profile-link" target="_blank" href="https://github.com/RGarlitz">GitHub</a>
+    
+
+      <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <ul id="movieTitle" class="card-title">
+
+              
+            </ul>
+            <p id="movieCrawl"></p>
+          </div>
+        </div>
+    
     </section>
     
     
     
       </main>
-      <script>
+      <!--<script>
         var link = document.querySelector('h1');
         link.textContent = 'The Raegan Garlitz';
 
@@ -44,8 +59,21 @@
         yomama.textContent = 'The Best Around';
         link.appendChild(yomama);
         
+        let myFavObject = {
+          show: 'The Office',
+          movie: 'Gentlemen Broncos',
+          restaurant: 'Bombay House',
+          soda: 'Dr Pepper',
+          desert: 'Chocolate'
+        };
+      </script>-->
+    <footer>
+      <p>Raegan Garlitz</p>
+    </footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="index.js"></script>
 
-        
-      </script>
     </body>
     </html>

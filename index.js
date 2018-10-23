@@ -22,6 +22,123 @@ fetch('https://swapi.co/api/films', {mode: "no-cors"})
     })
   })*/
   
+  
+  import { films } from './films.js'
+  import { people } from './people.js'
+  
+  /*let cardList = document.querySelector("#card-list")
+  
+  films.forEach((film) => {
+    let listItem = document.createElement('li')
+    listItem.textContent = film.title
+    cardList.appendChild(listItem)
+  })
+  
+  console.log(people[9])
+  console.log(films[5])*/
 
+  //let cardList = document.querySelector("#card-list")
+  
+  
+  
+  /*films.forEach((film) => {
+    let listItem = document.createElement('li')
+    listItem.textContent = film.title
+    cardList.appendChild(listItem)
+  })
+
+  for (var info in empire) {
+    let listItem = document.createElement('li')
+    listItem.textContent = info.director
+    cardList.appendChild(listItem)
+    console.log(info.director)
+  }*/
 
   
+  /*let empire = films[5]
+  //console.log(movie.director)
+  //console.log(films)
+ 
+  function empireStrikesBack(movie) {
+    movieCrawl.textContent = movie.title
+    //cardList.appendChild(listItem)
+  }
+  
+  
+
+  empireStrikesBack(empire)*/
+
+  let movieTitle = document.querySelector("#movie-title")
+  let movieDirector = document.querySelector("#movie-director")
+  let releaseDate = document.querySelector("#release-date")
+  let openingCrawl = document.querySelector("#opening-crawl")
+  let obiWan = document.querySelector("#obi-wan")
+  let Luke = document.querySelector("#luke")
+  let Han = document.querySelector("#han")
+  let Anakin = document.querySelector("#Anakin")
+  let Leia = document.querySelector("#Leia")
+
+  let characters = people
+  let hope = films[0]
+  let empire = films[5]
+
+  
+  console.log(people[9].name)
+
+  function movieCard(movie) {
+    movieTitle.textContent = movie.title
+    movieDirector.textContent = movie.director
+    releaseDate.textContent = movie.release_date
+    openingCrawl.textContent = movie.opening_crawl
+  }
+  
+  movieCard(empire)
+
+
+  function peopleCard(person) {
+    obiWan.textContent = person[9].name
+    Luke.textContent = person[0].name
+    Han.textContent = person[13].name
+    Anakin.textContent = person[3].name
+    Leia.textContent = person[4].name
+  }
+  
+  peopleCard(characters)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

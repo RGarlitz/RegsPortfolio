@@ -41,6 +41,14 @@
     align-items: center;
     background-color: #edc39e;
   }
+
+  #projects1 {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edc39e;
+  }
   
   #projects a {
     padding: 2em;

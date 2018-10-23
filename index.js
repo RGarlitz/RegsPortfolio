@@ -82,9 +82,6 @@ fetch('https://swapi.co/api/films', {mode: "no-cors"})
   let hope = films[0]
   let empire = films[5]
 
-  
-  console.log(people[9].name)
-
   function movieCard(movie) {
     movieTitle.textContent = movie.title
     movieDirector.textContent = movie.director
@@ -95,7 +92,7 @@ fetch('https://swapi.co/api/films', {mode: "no-cors"})
   movieCard(empire)
 
 
-  function peopleCard(person) {
+  const peopleCard = (person) => {
     obiWan.textContent = person[9].name
     Luke.textContent = person[0].name
     Han.textContent = person[13].name

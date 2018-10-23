@@ -3,7 +3,7 @@
   }
   
   @media only screen and (max-width: 1400px) {
-  
+   
   #navbar {
     top: 0;
       width: 100%;
@@ -27,7 +27,7 @@
   
   
   
-  ul {
+  nav ul {
      display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -68,4 +68,8 @@ a {
 
 a:hover {
     color: white;
+}
+
+.card li {
+  list-style: none;
 }

@@ -2,7 +2,6 @@
     margin: 0;
   }
   
-  @media only screen and (max-width: 1400px) {
    
   #navbar {
     top: 0;
@@ -58,7 +57,7 @@
     text-align: center;
   }
     
-    }
+    
 
 
 a {
@@ -72,4 +71,22 @@ a:hover {
 
 .card li {
   list-style: none;
+}
+
+
+
+.card {
+  margin: 10px;
+  color: #0b46a5;
+  background-color: #ffdf0f !important;
+}
+
+.darth, .ship {
+  width: auto;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
 }

@@ -9,6 +9,7 @@
       position: fixed;
     background-color: #bcbcb8;
     height: 40px;
+    z-index:1;
   }
   
   #navbar li {
@@ -42,7 +43,7 @@
   }
 
   #projects1 {
-    height:100vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;

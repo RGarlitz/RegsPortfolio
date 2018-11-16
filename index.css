@@ -2,6 +2,9 @@
     margin: 0;
   }
   
+  body.sterwers {
+    background-color: #c9d0d3;
+  }
    
   #navbar {
     top: 0;
@@ -76,11 +79,11 @@ a:hover {
 
 
 
-.card {
+/**.card {
   margin: 10px;
   color: #0b46a5;
   background-color: #ffdf0f !important;
-}
+}**/
 
 .darth, .ship {
   width: auto;
@@ -90,4 +93,83 @@ a:hover {
 
 .clearfix {
   clear: both;
+}
+
+div.first25, div.back-card {
+  display: flex;
+  flex-direction: row;
+ flex-wrap: wrap;
+} 
+
+
+.first25 img {
+  
+  width: 200px;
+  height: 275px;
+  text-align: center;
+}
+
+.first25 figcaption {
+  background-color: #ffd700;
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.first25 figure {
+ margin: 10px;
+}
+
+.back-card li {
+  list-style-type: none;
+}
+
+
+.card {
+  width: 301px;
+  height: 425px;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  margin: 10px;
+  background-color: #ffd700;
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+
+}
+
+.card__face--back {
+  font-size: 2rem;
+  transform: rotateY(180deg);
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.card__face--back ul {
+ padding-left: 0 !important;
+}
+
+h1.baseball {
+
+  margin: 20px;
+  text-align: center;
+  color: #000066;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffd700;
 }

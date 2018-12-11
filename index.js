@@ -1,6 +1,8 @@
-  
- import { people } from './people.js'
+import { people } from './people.js'
 
+
+
+ //People Cards
 const characters = people
 let first25Peeps = document.querySelector('.first25')
 let backCard = document.querySelector('.back-card')
@@ -164,5 +166,7 @@ newButton.addEventListener( 'click', function() {
   newish(darthMaul)
   })
 
+
+ //end people cards
 
  

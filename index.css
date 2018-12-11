@@ -125,6 +125,16 @@ div.first25, div.back-card {
 }
 
 
+.card-body figure {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card-body figure img {
+  width: 100%;
+}
+
 .card {
   width: 301px;
   height: 425px;
@@ -137,6 +147,7 @@ div.first25, div.back-card {
   text-align: center;
   padding: 5px;
   font-weight: 700;
+  height: auto;
 }
 
 .card.is-flipped {
@@ -172,4 +183,8 @@ h1.baseball {
   color: #000066;
   padding-bottom: 5px;
   border-bottom: 2px solid #ffd700;
+}
+
+main.swbc {
+  margin-top: 3rem;
 }

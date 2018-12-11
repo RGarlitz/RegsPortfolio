@@ -179,7 +179,7 @@ div.first25, div.back-card {
 }
 
 .card__face--back {
-  font-size: 2rem;
+  
   transform: rotateY(180deg);
   text-align: center;
   padding: 10px;

@@ -70,7 +70,12 @@ a {
 }
 
 a:hover {
-    color: white;
+  color: white;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .card li {

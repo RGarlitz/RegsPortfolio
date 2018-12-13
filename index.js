@@ -49,12 +49,12 @@ people.forEach(person => {
   info5.textContent = `Birth Year: ${person.birth_year}`
   info6.textContent = `Gender: ${person.gender}`
 
-var i;
-
-while (i < 7) {
-  myInfo.appendChild(info + i)
-  i++;
-}
+  myInfo.appendChild(info1)
+  myInfo.appendChild(info2)
+  myInfo.appendChild(info3)
+  myInfo.appendChild(info4)
+  myInfo.appendChild(info5)
+  myInfo.appendChild(info6)
 
 
   backCard.appendChild(card)

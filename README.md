@@ -39,7 +39,6 @@ Objects with Key Value Pairs:
 people.js line 2
 
 Loop:
-index.js line 52-57
 index.js line 12
 
 Dot notation:

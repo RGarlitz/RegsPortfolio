@@ -24,6 +24,9 @@ ster-wers.js line 31
 Strings using template literals:
 index.js lines 45-50
 
+Declare a javascript object:
+index.js linw 81
+
 Import and Export:
 ster-wers.js lines 1-2
 people.js line 1
@@ -35,6 +38,9 @@ people.js and films.js
 Objects with Key Value Pairs: 
 people.js line 2
 
+Loop:
+index.js line 52-57
+index.js line 12
 
 Dot notation:
 ster-wers.js lines 21-26
